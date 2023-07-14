@@ -1,13 +1,21 @@
 {
   "name": "vite-plugin-html-hooks",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "types": "dist/index.d.ts",
   "module": "dist/index.cjs",
   "main": "dist/index.js",
   "license": "MIT",
   "author": "liutaotao",
+  "homepage": "https://github.com/liu1435533520/vite-plugin-html-hooks",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liu1435533520/vite-plugin-html-hooks"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "tsup -w",
     "build": "tsup"
